@@ -24,7 +24,7 @@ install dependencies from requirement.txt
 
 Download the finetuned Model and Code (understand the directory structure) from: 
 https://drive.google.com/drive/u/0/folders/1a0xs2V2okCuznWO3bhkJztky2mI3bi50
-
+upload and use your indian annual reports dataset folder instead of SourceData.
 Update the drive folder path, and dataset path in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
 
 
