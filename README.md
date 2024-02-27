@@ -22,7 +22,7 @@ install dependencies from requirement.txt
 
 ## Finetuned Model and code
 
-Download the finetuned Model and Code from (understand the directory structure): 
+Download the finetuned Model and Code (understand the directory structure) from: 
 https://drive.google.com/drive/u/0/folders/1a0xs2V2okCuznWO3bhkJztky2mI3bi50
 
 Update the drive folder path, and dataset path in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
