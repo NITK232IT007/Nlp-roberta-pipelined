@@ -32,6 +32,3 @@ SourceData
 
 
 Update the variables  `curr_path` (only on google collab), and reports folder path `report_path` in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
-
-
-
