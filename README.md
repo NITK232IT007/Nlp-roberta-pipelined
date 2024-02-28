@@ -18,7 +18,7 @@ upload and use your indian annual reports dataset folder instead of SourceData f
 Directory structure of reports folder(`SourceData`):
 
 
-## Folder Structure Details
+## Folder Structure Details of SourceData 
 
 - **SourceData/** Contains folders of companies for which you want to generate the summaries 
     - **CompanySymbol/**: Contains company Annual_reports
