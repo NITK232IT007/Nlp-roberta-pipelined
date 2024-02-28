@@ -23,11 +23,12 @@ Directory structure of reports folder(`SourceData`):
 - **SourceData/** Contains folders of companies for which you want to generate the summaries 
     - **CompanySymbol/**: Contains company Annual_reports
         - **Annual_reports/**: Annual_reports contains MDA reports
+            - CompanySymbol_year1_MDA.txt
+            - CompanySymbol_year2_MDA.txt
     - **CompanySymbol2/**: Contains company Annual_reports
         - **Annual_reports/**: Annual_reports contains MDA reports
+            - CompanySymbol2_year1_MDA.txt
+            - CompanySymbol2_year2_MDA.txt
         
-
-
-
 
 Update the variables  `curr_path` (only on google collab), and reports folder path `report_path` in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
