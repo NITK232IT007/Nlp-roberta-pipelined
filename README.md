@@ -16,19 +16,18 @@ Download the finetuned Model (`Roberta_Classification_Model_Fine_Tuned`) and Cod
 https://drive.google.com/drive/u/0/folders/1a0xs2V2okCuznWO3bhkJztky2mI3bi50
 upload and use your indian annual reports dataset folder instead of SourceData folder (with MDA reports).
 Directory structure of reports folder(`SourceData`):
-SourceData
-|__CompanySymbol
-|      |
-|      |__Annual_reports
-|            |
-|            |____CompanySymbol_year1_MDA.txt
-|            |____CompanySymbol_year2_MDA.txt
-|__CompanySymbol2
-      |
-      |__Annual_reports
-            |
-            |____CompanySymbol2_year1_MDA.txt
-            |____CompanySymbol2_year2_MDA.txt
+
+
+## Folder Structure Details
+
+- **SourceData/** Contains folders of companies for which you want to generate the summaries 
+    - **CompanySymbol/**: Contains company Annual_reports
+        - **Annual_reports/**: Annual_reports contains MDA reports
+    - **CompanySymbol2/**: Contains company Annual_reports
+        - **Annual_reports/**: Annual_reports contains MDA reports
+        
+
+
 
 
 Update the variables  `curr_path` (only on google collab), and reports folder path `report_path` in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
