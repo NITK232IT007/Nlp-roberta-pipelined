@@ -29,6 +29,8 @@ Directory structure of reports folder(`SourceData`):
         - **Annual_reports/**: Annual_reports contains MDA reports
             - CompanySymbol2_year1_MDA.txt
             - CompanySymbol2_year2_MDA.txt
+         
+![Directory Structure](directory_structure.png)
         
 
 Update the variables  `curr_path` (only on google collab), and reports folder path `report_path` in the `roberta-pipelined.ipynb` and run all the cells to generate the summaries.
