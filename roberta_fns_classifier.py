@@ -112,8 +112,9 @@ def preprocess_text_for_generatedSummary(text):
     Function to preprocess the text, Remove extra spaces, and Remove special characters for summary
     '''
     text = ' '.join(text.split())
+    text = re.sub(r'\.{2,}', '', text)
     text = re.sub(r'[^a-zA-Z0-9.\s]', '', text)
-
+    text = re.sub(r'\.{2,}', '', text)
     return text
 
 
